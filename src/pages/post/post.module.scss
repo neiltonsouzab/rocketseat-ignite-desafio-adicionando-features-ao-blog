@@ -42,10 +42,19 @@
     }
 
   }
+
+  > span {
+    display: block;
+    margin-top: 1rem;
+
+    font-size: 0.875rem;
+    font-style: italic;
+    color: var(--info);
+  }
 }
 
 .postContent {
-  margin-bottom: 2.250rem;
+  margin-bottom: 3.250rem;
 
   h2 {
     margin-bottom: 2.5rem;
@@ -65,4 +74,32 @@
     }
   }
 
+}
+
+.postFooter {
+  padding: 3rem 0;
+
+  border-top: 1px solid #333;
+}
+
+.postNavigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  a > p {
+    font-size: 1.125rem;
+    color: var(--heading);
+  }
+
+  a > span {
+    display: block;
+    margin-top: 0.5rem;
+
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--highlight);
+
+  }
 }
