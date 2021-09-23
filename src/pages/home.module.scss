@@ -1,0 +1,58 @@
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.posts {
+  a {
+    display: block;
+
+    h1 {
+      font-size: 1.8rem;
+      color: var(--heading);
+    }
+
+    p {
+      font-size: 1.125rem;
+      color: var(--body);
+      margin-top: 0.5rem;
+    }
+
+    & + a {
+      margin-top: 3rem;
+    }
+  }
+}
+
+.postInfo {
+  margin-top: 1.334rem;
+  display: flex;
+
+  span {
+    display: flex;
+    align-items: center;
+
+    font-size: 0.875rem;
+    color: var(--info);
+
+    svg {
+      margin-right: 0.5rem;
+    }
+
+    & + span {
+      margin-left: 1.5rem;
+    }
+  }
+}
+
+.loadMore {
+  margin-top: 4rem;
+
+  border: none;
+  background: none;
+  color: var(--highlight);
+
+  font-size: 1.125rem;
+  font-weight: 600;
+}
